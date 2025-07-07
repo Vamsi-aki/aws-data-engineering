@@ -30,7 +30,6 @@ This project simulates a real-world AWS Data Engineering scenario by combining *
     - [Storing Data Stream](#storing-data-stream)
     - [Processing Data Stream](#processing-data-stream)
   - [Batch Processing](#batch-processing)
-- [Demo](#demo)
 - [Conclusion](#conclusion)
 
 ---
@@ -83,12 +82,6 @@ This project simulates a real-world AWS Data Engineering scenario by combining *
 ## Batch Processing
 - `csv_to_api_ingest.py`: Python script to send historical CSV data via API to the same streaming pipeline.
 - Useful for bootstrapping datasets or simulating streaming from static files.
-
----
-
-# Demo
-
-> You can insert a demo video or link here once you’ve created one.
 
 ---
 
