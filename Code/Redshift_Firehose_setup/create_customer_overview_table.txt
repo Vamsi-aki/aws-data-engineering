@@ -1,9 +1,9 @@
 
-#create Table for import set to not null .
+#create Table for the bulk import set to not null .
 #This way row inserts run in error if they are not correctly imported
 
-create table firehosetransactions(
-	InvoiceNo int not null,
+create table customer_overview_events(
+	InvoiceNo varchar(200) not null,
 	StockCode varchar(200) not null,
 	Description varchar(200) not null,
 	Quantity int not null,	
@@ -13,8 +13,3 @@ create table firehosetransactions(
  	Country varchar(200) not null
 );
 
-# For finding errors during import
-select * from STL_LOAD_ERRORS
-
-# More details about the errors
-STL_LOADERROR_DETAIL
